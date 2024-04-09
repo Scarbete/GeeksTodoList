@@ -1,4 +1,4 @@
-import { TodoWidget } from "@/widgets/TodoWidget"
+import {TodoWidget} from '@/widgets/TodoWidget'
 
 
 export const App = () => {

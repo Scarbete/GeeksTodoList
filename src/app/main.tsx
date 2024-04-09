@@ -1,6 +1,6 @@
 import {createRoot} from 'react-dom/client'
 import {App} from './App.tsx'
-import '@/app/styles/global.sass'
+import './styles/global.sass'
 
 const root = document.getElementById('root') ?? document.body
 

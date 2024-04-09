@@ -1,7 +1,7 @@
 import {ChangeEventHandler, FC, useState} from 'react'
+import {Todo, useTodoModel} from '@/widgets/TodoWidget'
 import {Button} from '@/shared/ui/Button'
 import {Input} from '@/shared/ui/Input'
-import {Todo, useTodoModel} from '@/widgets/TodoWidget'
 import classes from '../../TodoCard/view/TodoCard.module.sass'
 
 type Props = {
