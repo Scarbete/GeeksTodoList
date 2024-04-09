@@ -7,7 +7,7 @@ type Props = {
     className?: string
     type?: string
     placeholder?: string
-    value?: any
+    value?: string | number
     onChange?: ChangeEventHandler<HTMLInputElement>
 } & HTMLAttributes<HTMLInputElement>
 
