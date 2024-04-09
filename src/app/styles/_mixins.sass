@@ -1,0 +1,24 @@
+
+@mixin createInputStyles($borderColor, $textColor)
+    width: 440px
+    height: 54px
+    padding: 16px
+    border-radius: 12px
+    border: 1px solid $borderColor
+    background: none
+    color: $textColor
+
+@mixin createTodoToolBox($borderColor, $hoverBackgroundColor)
+    width: 54px
+    height: 54px
+    border: 1px solid $borderColor
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 12px
+    cursor: pointer
+    transition: 250ms
+
+    &:hover
+        background: $hoverBackgroundColor
+        transition: 250ms

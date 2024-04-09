@@ -1,0 +1,18 @@
+@import '../../../../app/styles/mixins'
+
+
+.todoCard
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+    &__info
+        @include createInputStyles(var(--root-white), var(--root-white))
+
+    &__tools
+        display: flex
+        align-items: center
+        gap: 20px
+
+        .tool
+            @include createTodoToolBox(var(--root-white), var(--root-pink))
